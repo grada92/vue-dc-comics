@@ -1,13 +1,13 @@
 <template>
-  <div class="app"></div>
+  <div id="app"></div>
 </template>
 
 <script>
 export default {
-
+name: 'HeaderComics',
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
