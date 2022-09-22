@@ -14,7 +14,7 @@ export default {
   name: 'App',
   components: {
     HeaderComics,
-    SectionContent
+    SectionContent,
 }
 }
 
@@ -26,7 +26,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1200px;
-  margin: 0 auto;
+  
 }
 </style>

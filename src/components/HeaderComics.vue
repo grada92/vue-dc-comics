@@ -29,6 +29,8 @@ name: 'HeaderComics',
 
 <style lang="scss" scoped>
 .content {
+    max-width: 1200px;
+    margin: 0 auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
