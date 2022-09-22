@@ -10,7 +10,7 @@
             <li><a href="">MOVIE</a></li>
             <li><a href="">TV</a></li>
             <li><a href="">GAMES</a></li>
-            <li><a href="">COLLECTIBLEX</a></li>
+            <li><a href="">COLLECTIBLES</a></li>
             <li><a href="">VIDEO</a></li>
             <li><a href="">FANS</a></li>
             <li><a href="">NEWS</a></li>
@@ -37,10 +37,13 @@ name: 'HeaderComics',
         list-style-type: none;
         
         li {
-            padding: 0px 15px;  
+            padding: 0px 15px; 
+             
         }
         a {
             text-decoration: none;
+            color: black;
+
         }
     }
 }
