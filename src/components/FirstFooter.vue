@@ -74,7 +74,7 @@
       display: flex;
       li {
           list-style-type: none;
-          padding: 5px 0;
+          padding: 2px 0;
           a{
               color: rgb(201, 192, 192);
               text-decoration: none;
