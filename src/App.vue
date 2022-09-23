@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComics/>
-    <SectionContent/>
+    <SectionContent :dates='cards'/>
     <SecondSection/>
     <FirstFooter />
     <SecondFooter/>
@@ -15,9 +15,13 @@ import SectionContent from "./components/SectionContent.vue";
 import SecondSection from "./components/SecondSection.vue";
 import FirstFooter from "./components/FirstFooter.vue";
 import SecondFooter from "./components/SecondFooter.vue";
+import {cards} from './data.js/data.js'
 
 export default {
   name: 'App',
+  data(){
+    return {cards}
+  },
   components: {
     HeaderComics,
     SectionContent,
