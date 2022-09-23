@@ -28,7 +28,7 @@ name: 'HeaderComics',
 </script>
 
 <style lang="scss" scoped>
-    
+
 .content {
     max-width: 1200px;
     margin: 0 auto;
@@ -46,7 +46,7 @@ name: 'HeaderComics',
         a {
             text-decoration: none;
             color: black;
-            padding: 30px 0px;
+            padding: 28px 0px;
             
             
         }
