@@ -3,6 +3,8 @@
     <HeaderComics/>
     <SectionContent/>
     <SecondSection/>
+    <FirstFooter />
+    <SecondFooter/>
     
   </div>
 </template>
@@ -11,13 +13,17 @@
 import HeaderComics from "./components/HeaderComics.vue";
 import SectionContent from "./components/SectionContent.vue";
 import SecondSection from "./components/SecondSection.vue";
+import FirstFooter from "./components/FirstFooter.vue";
+import SecondFooter from "./components/SecondFooter.vue";
 
 export default {
   name: 'App',
   components: {
     HeaderComics,
     SectionContent,
-    SecondSection
+    SecondSection,
+    FirstFooter,
+    SecondFooter,
 }
 }
 

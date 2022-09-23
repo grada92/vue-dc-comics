@@ -20,6 +20,7 @@ name: 'SectionContent'
 .section-text {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 p {
     color:white;

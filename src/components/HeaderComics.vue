@@ -45,8 +45,19 @@ name: 'HeaderComics',
         a {
             text-decoration: none;
             color: black;
-
+            padding: 30px 0px;
+            
+            
         }
     }
+}
+
+img {
+    width: 60px;
+    margin: 10px 0;
+}
+
+a:hover {
+    border-bottom: 4px solid #0282f9;
 }
 </style>
