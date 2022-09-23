@@ -28,6 +28,7 @@ name: 'HeaderComics',
 </script>
 
 <style lang="scss" scoped>
+    
 .content {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,7 +40,7 @@ name: 'HeaderComics',
         list-style-type: none;
         
         li {
-            padding: 0px 15px; 
+            padding: 0px 10px; 
              
         }
         a {
