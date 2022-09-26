@@ -56,8 +56,11 @@ name: 'HeaderComics',
 img {
     width: 60px;
     margin: 10px 0;
-}
+}   
 
+img:hover {
+    cursor: pointer;
+}
 a:hover {
     border-bottom: 4px solid #0282f9;
 }
